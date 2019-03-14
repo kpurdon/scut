@@ -31,7 +31,7 @@ release:
 brew:
   github:
     owner: kpurdon
-    name: scut
+    name: homebrew-tap
   commit_author:
     name: Kyle Purdon
     email: kylepurdon+scut@gmail.com
