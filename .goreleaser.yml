@@ -28,3 +28,12 @@ release:
     owner: kpurdon
     name: scut
   prerelease: auto
+brew:
+  github:
+    owner: kpurdon
+    name: scut
+  commit_author:
+    name: Kyle Purdon
+    email: kylepurdon+scut@gmail.com
+  homepage: "https://github.com/kpurdon/scut"
+  description: "Tail for RabbitMQ."
