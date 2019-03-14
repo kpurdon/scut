@@ -14,3 +14,24 @@ Download your binary of choice from the [Releases](https://github.com/kpurdon/sc
 ### Homebrew
 
 Run `brew tap kpurdon/tap && brew install scut`.
+
+## Usage
+
+Let's say you have a topic exchange named `events` and want to see all messages published to that exchange with the binding key of `events.foo`. Run the following, new messages will be printed to stdout:
+
+```
+scut --exchange-name=events --binding-key=events.foo
+{"foo":"bar"}
+{"foo":"bar"}
+{"foo":"bar"}
+```
+
+## Contributing
+
+If you have a feature request open an issue to discuss it first.
+
+1. Fork the repo.
+2. Create a feature branch.
+3. WORK. WORK. WORK.
+4. Open a Pull Request.
+5. Profit! (after some peer review of course)
