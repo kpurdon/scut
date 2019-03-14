@@ -2,8 +2,10 @@ before:
   hooks:
     - go mod download
 builds:
-- env:
-  - CGO_ENABLED=0
+  -
+    main: ./cmd/scut/scut.go
+    env:
+      - CGO_ENABLED=0
 archive:
   replacements:
     darwin: Darwin
